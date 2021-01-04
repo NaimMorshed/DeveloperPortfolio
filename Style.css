@@ -83,6 +83,9 @@ button:hover{
     height: 600px;
     box-sizing: border-box;
     padding: 30px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .div6{
     width: 44%;
@@ -92,6 +95,7 @@ button:hover{
     margin-left: 30px;
     border-left: 7px solid #FF9D78;
     box-shadow: 10px 15px 30px black;
+    overflow: auto;
 }
 .div7{
     width: 44%;
@@ -101,6 +105,7 @@ button:hover{
     margin-right: 30px;
     border-left: 7px solid #0107FF;
     box-shadow: 10px 15px 30px black;
+    overflow: auto;
 }
 #pro-dev{
     color: #FFA542;
@@ -111,6 +116,6 @@ button:hover{
 }
 #footer{
     opacity: 90%;
-    margin-bottom: 15px;
+    margin-bottom: 15   px;
 }
 
