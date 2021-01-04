@@ -85,7 +85,8 @@ button:hover{
     padding: 30px;
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position-y: 50%;
+    background-position-x: -25px;
 }
 .div6{
     width: 44%;
@@ -93,7 +94,8 @@ button:hover{
     float: left;
     position: relative;
     margin-left: 30px;
-    border-left: 7px solid #FF9D78;
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #FF9F79, #FF6448) 1 100%;
     box-shadow: 10px 15px 30px black;
     overflow: auto;
 }
@@ -103,7 +105,8 @@ button:hover{
     float: right;
     position: relative;
     margin-right: 30px;
-    border-left: 7px solid #0107FF;
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom, #0003FF, #00FDFF) 1 100%;
     box-shadow: 10px 15px 30px black;
     overflow: auto;
 }
@@ -116,6 +119,6 @@ button:hover{
 }
 #footer{
     opacity: 90%;
-    margin-bottom: 15   px;
+    margin-bottom: 15px;
 }
 
