@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 button{
     background-image: linear-gradient(to right, #FF9B6A, #FF7857);
@@ -22,11 +22,8 @@ button:hover{
     border: 0px;
     border-radius: 5px;
     background-color: chocolate;
-    font-weight: bold;
     width: 90px;
-    font-size: 12px;
     height: 30px;
-    color: white;
 }
 .para{
     opacity: 75%;
@@ -36,7 +33,7 @@ button:hover{
     color: black;
 }
 #Peter-text{
-    color: #ffa200;
+    color: orange;
 }
 #div2{              /*---DIV2---*/
     width: 50%;
@@ -120,5 +117,11 @@ button:hover{
 #footer{
     opacity: 90%;
     margin-bottom: 15px;
+}
+#anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
 }
 
